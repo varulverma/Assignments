@@ -4,49 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 1 Assignment</title>
+    <title>Week 2 Assignment - Javascript</title>
+    <style>
+      
+        .parent1{
+            display:flex;
+        }
+        .parent2{
+            display:flex;
+        }
+        .cyan{
+            border: 2px solid brown;
+            background-color: aqua;
+            width: 120px;
+            height: 50px;
+            position: relative;
+            top: 250px;
+            left: -375px;
+            
+        }
+        .brown{
+            border: 1px solid blue;
+            background-color: brown;
+            width: 100px;
+            height: 200px;
+            position: relative;
+            top: 100px;
+            left: 98px;
+        }
+        .red{
+            background-color: red;
+            width: 100px;
+            height: 150px;
+            position: relative;
+            top: 200px;
+            left: 102px;
+           
+        }
+        .blue{
+            background-color: blue;
+            width: 200px;
+            height:150px;
+            position: relative;
+            top: 200px;
+            
+         
+        }
+    </style>
 </head>
-<style>
-    table, th, td {
-  border: 0.5px solid black;
-  border-collapse: collapse; 
-  border-spacing: 0px;
-  text-align: center;
-  padding:20px;
-}
-</style>
 <body>
-    <table  align="center" >
-    <caption>Health Chart</caption>
-    <tr>
-        <th rowspan="2">State of Health</th>
-        <th colspan="2">Fasting Value</th>
-        <th>After Eating</th>
-    </tr>
-    <tr>
-        <th> Minimum</th>
-        <th> Maximum</th>
-        <th> 2 Hours after Eating</th>
-
-    </tr>
-     <tr>
-        <td>Healthy</td>
-        <td>70</td>
-        <td>100</td>
-        <td>Less than 140</td>
-      </tr>
-      <tr>
-        <td>Pre-Diabetes</td>
-        <td>101</td>
-        <td>126</td>
-        <td>140-200</td>
-      </tr>
-      <tr>
-        <td>Diabetes</td>
-        <td>More than 126</td>
-        <td>N/A</td>
-        <td>More than 200</td>
-      </tr>
-    </table>
-    </body>
+    <div class="parent1">
+        <div class="red"></div>
+        <div class="brown"></div>
+        <div class="blue"></div>
+        <div class="cyan"></div>
+    </div>
+</body>
 </html>
