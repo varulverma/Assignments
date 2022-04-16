@@ -1,2 +1,2 @@
-# Assignments
+# MERN Assignments
 Weekly Assignments
