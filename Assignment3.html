@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Week 3 Assignment - CSS Grid</title>
+    <style>
+            .img{
+                width: 100%;
+            }
+            .icons{
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                grid-template-rows: 3fr;
+                margin: auto 30% auto 30%;
+                height: auto;
+                text-align: center;
+            }
+            .iconpadding{
+                display: inline-block;
+                padding: 12px 6px 12px 6px;
+            }
+            .blogs{
+                display: grid;
+                grid-template-columns: repeat(4, 2fr);
+                grid-template-rows: auto; 
+                text-align: left;
+                margin: auto 100px auto 100px;
+            }
+            .padding{
+                display: inline-block;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+            .images{
+                height: auto;
+                width: auto;
+            }
+            p{
+                font-weight: 400;
+                font-size: 15px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h4{
+                font-weight: 600;
+                font-size: 15
+                px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            }
+    </style>
+ 
+</head>
+<body>
+    <div class="icons"> 
+        <div class="iconpadding">
+            <img src=https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4sQDc?ver=30c2&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="choose your microsoft 365">
+            <h4>
+                Choose your Microsoft 365
+            </h4>
+        </div>
+        <div class="iconpadding">
+            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pndL?ver=5217&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true">
+            <h4>
+                Explore Surface Devices
+            </h4>
+        </div>
+        <div class="iconpadding">
+            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWWl29?ver=addd&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true">
+            <h4>
+                Buy Xbox Games 
+            </h4>
+        </div>
+        <div class="iconpadding">
+            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4sQDc?ver=30c2&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true">
+            <h4>
+                Get Windows 11
+            </h4>
+        </div>
+    </div>
+    <div class="blogs" >
+        <div class="padding">
+            <img class="img" alt="PC game Pass" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4Rwnk?ver=0641&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&x=1489&y=247&aim=true">
+            <h3>
+                PC Game Pass
+            </h3>
+            <p>
+                Unlock 100+ great games and member discounts, plus get your first month for ₹50. Offer available to new subscribers only.                                                            
+            </p>
+            <a href="https://www.xbox.com/en-in/games/store/pc-game-pass/cfq7ttc0kgq8?=icid=XboxCatPage_CP4_PCGamePass_4Apr2022_en-in">Join Now</a>
+        </div>
+        <div class="padding">
+            <img class="img" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWKFjD?ver=8abe&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="Surface Laptop Studio ">
+            <h3>
+                Surface Laptop Studio
+            </h3>
+            <p>
+                Flex your creative muscle on the most powerful Surface Laptop. Now available with Windows 11.                                            
+            </p>
+            <a href="https://www.microsoft.com/en-in/surface/devices/surface-laptop-studio?icid=mscom_marcom_CPH2a_SurfaceLaptopStudio&activetab=overview">Learn More</a>
+        </div>
+        <div class="padding">
+            <img class="img" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWAshJ?ver=1e8d&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="Surface Laptop 4">
+            <h3>
+                Surface Laptop 4
+            </h3>
+            <p>
+                Do it all with a perfect balance of sleek, ultra-thin design, multitasking speed and improved performance.  
+            </p>
+            <a href="https://www.microsoft.com/en-in/surface/devices/surface-laptop-4?activetab=overview">Shop now</a>
+        </div>
+        <div class="padding">
+            <img class="img" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4rzE2?ver=aa0b&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="Microsoft Edge">
+            <h3>
+                Microsoft Edge
+            </h3>
+            <p>
+                World-class performance with more privacy, more productivity and more value while you browse.
+            </p>
+            <a href="https://www.microsoft.com/en-us/edge?form=MI13F3&OCID=MI13F3&r=1">Download Now</a> 
+        </div>
+    </div>
+</body>
+</html>
